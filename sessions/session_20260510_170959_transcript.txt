@@ -1,0 +1,8 @@
+Meeting Transcript
+Date: 2026-05-10 17:09
+Duration: 0:32
+============================================================
+
+[17:10:05] [Speaker] how to import data set in Python in Pandar.
+[17:10:15] [Speaker] time
+[17:10:26] [Speaker] You know what I mean?

@@ -1,0 +1,16 @@
+# Cluely — Screenshot-only build (no audio, no Whisper)
+# Use this on a fresh machine where you ONLY want the screenshot → Sonnet flow.
+# Saves ~600 MB of downloads vs the full requirements.txt (no faster-whisper,
+# no scipy, no PyAudio, no Deepgram).
+#
+# Install:
+#   python -m venv venv
+#   venv\Scripts\activate           (Windows)
+#   pip install -r requirements_minimal.txt
+
+PyQt6>=6.6.0           # Overlay UI
+anthropic>=0.40.0      # Claude Sonnet 4.6 client
+mss>=9.0.0             # Fast screen capture
+Pillow>=10.0.0         # PNG encoding of the screenshot
+keyboard>=0.13.5       # Global hotkeys (Insert / Home / End)
+pynput>=1.7.6          # Fallback hotkey backend if `keyboard` fails
